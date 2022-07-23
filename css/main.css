@@ -43,6 +43,18 @@ h1, p, picture {
   object-fit: cover;
 }
 
+.btn__random {
+  position: absolute;
+  bottom: -10%;
+  background-color: #52ffa8;
+  border: none;
+  border-radius: 100%;
+  padding: 1.5em;
+}
+.btn__random:hover {
+  box-shadow: 0px 0px 25px #52ffa8;
+}
+
 body {
   background-color: #1f2632;
   color: #cee3e9;
@@ -60,15 +72,6 @@ img {
   display: grid;
   place-items: center;
   padding-inline: 1em;
-}
-
-.btn__random {
-  position: absolute;
-  bottom: -10%;
-  background-color: #52ffa8;
-  border: none;
-  border-radius: 100%;
-  padding: 1.5em;
 }
 
 /*# sourceMappingURL=main.css.map */
