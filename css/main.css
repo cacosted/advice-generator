@@ -10,13 +10,15 @@ h1, p, picture {
 .card {
   background-color: #323a49;
   position: relative;
-  max-width: 500px;
+  max-width: 31.25rem;
+  min-height: 15rem;
   margin-inline: auto;
   padding-block: 1.5em;
   padding-inline: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   border-radius: 15px;
   font-size: 1.7rem;
   text-align: center;
