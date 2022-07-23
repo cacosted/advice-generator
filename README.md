@@ -27,11 +27,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![Page preview](https://user-images.githubusercontent.com/57645180/180589377-8a4c1503-2d08-453e-88fc-4c860590d7eb.png)
 
 ### Links
 
-- Live Site URL: [Live Demo](https://your-live-site-url.com)
+- Live Site URL: [Live Demo](https://cacosted.github.io/advice-generator/)
 
 ## My process
 
@@ -62,8 +62,6 @@ In this project a learn how works `@use` to modularize the styling files:
   /* Here is inserted the styles from card.sass */
   card
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ### Useful resources
 
