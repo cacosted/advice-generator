@@ -3,3 +3,36 @@
 .card
   background-color: $main-color
   position: relative
+  max-width: 500px
+  margin-inline: auto
+  padding-block: 1.5em
+  padding-inline: 1em
+  display: flex
+  flex-direction: column
+  align-items: center
+  border-radius: 15px
+  font-size: $large
+  text-align: center
+  
+  &__title
+      font-size: .7rem
+      letter-spacing: .5em
+      text-transform: uppercase
+      font-weight: 500
+      color: $accent
+
+  &__advice
+    font-size: 1.5rem
+    font-weight: 800
+    line-height: 1.4
+    margin-block: 1em
+
+  &__img
+    width: 100%
+    margin-block-end: .5em
+    
+    img
+      width: 100%
+      object-fit: cover
+
+  

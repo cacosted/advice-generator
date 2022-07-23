@@ -13,15 +13,15 @@
   <script defer src="./src/main.js"></script>
 </head>
 <body>
-  <div id="root">
+  <div id="root" class="container">
     <article class="card">
       <h1 class="card__title">Advice #117</h1>
       <p class="card__advice">"It is easy to sit up and take notice, what's difficult is getting up and taking action."</p>
-      <picture class="card__figure">
-        <source srcset="./images/pattern-divider-desktop.svg" media="(min-width: 800px)"/>
-        <img class="card__img" src="./images/pattern-divider-mobile.svg" alt="">
+      <picture class="card__img">
+        <source srcset="./images/pattern-divider-desktop.svg" media="(min-width: 400px)"/>
+        <img src="./images/pattern-divider-mobile.svg" alt="">
       </picture>
-      <button id="btn-random"><img src="./images/icon-dice.svg" alt="randomize"></button>
+      <button id="btn-random" class="btn__random" type="button" onclick="something()"><img src="./images/icon-dice.svg" alt="randomize"></button>
     </article>
   </div>
 </body>
