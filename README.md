@@ -77,7 +77,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 ### Useful resources
 
 - [Sass documentation](https://sass-lang.com/) - The official documentation helped me setup `sass` with `npm`.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Sass modules](https://css-tricks.com/introducing-sass-modules/) - This was a great article to understand better `@use` and how to use it to modularize the styles.
 
 ## Author
 

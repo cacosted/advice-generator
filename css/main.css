@@ -1,12 +1,23 @@
-body {
-  background-color: #323a49;
-  color: #cee3e9;
-  paddding: 0;
+h1, p, picture {
   margin: 0;
+  padding: 0;
 }
 
-div {
-  background-color: #52ffa8;
+.card {
+  background-color: #323a49;
+  position: relative;
+}
+
+body {
+  background-color: #1f2632;
+  color: #cee3e9;
+  margin: 0;
+  paddding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+img {
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */
